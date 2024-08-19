@@ -6,4 +6,4 @@ add_compile_options(
     -mmcu=atmega328p 
     -DF_CPU=16000000UL
     -Os)
-add_executable(hello main.c++)
+add_executable(hello main.c)
